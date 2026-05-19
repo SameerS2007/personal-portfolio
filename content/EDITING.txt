@@ -1,0 +1,12 @@
+Edit site.json in this folder to change copy, links, projects, and experience.
+
+Rules:
+  - Must stay valid JSON: double quotes on keys/strings, no trailing commas, no // comments.
+  - pageNav "id" values must match section ids in src/App.jsx (e.g. service-box, press-box).
+  - skills: array of strings (Training Block section); order = display order.
+  - projectHighlights: add optional "codeUrl" and "liveUrl" for GitHub / live demo links.
+  - experiencePeriods: higher sortKey = more recent; set isFuture on the "Next" block to keep it last.
+  - experienceFootnote: optional one line under the timeline; use "" to hide it.
+
+After saving, run: npm run content:check
+(or npm run dev / npm run build — a bad JSON file will error immediately.)

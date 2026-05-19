@@ -1,0 +1,347 @@
+{
+  "scoreboard": {
+    "label": "Personal site",
+    "kicker": "UW CS · research · full-stack",
+    "subcopy": "Allen School undergrad, Ma Lab research, and side projects I actually run in production.",
+    "mood": "Week to week: lab work, classes, ResuMAX, and tennis when the schedule allows.",
+    "centerCourtTitle": "Research, coursework, and things I ship."
+  },
+  "scoreboardMeta": [
+    {
+      "label": "Current Status",
+      "value": "Class of 2027"
+    },
+    {
+      "label": "Primary Focus",
+      "value": "Allen School · Ma Lab · ResuMAX"
+    },
+    {
+      "label": "Based In",
+      "value": "Seattle, WA"
+    },
+    {
+      "label": "Quick Links",
+      "value": "Projects / Education / Resume / Contact",
+      "isLinks": true
+    }
+  ],
+  "matchStats": [
+    {
+      "label": "Code",
+      "value": "Python, Java, React, PyTorch, AWS"
+    },
+    {
+      "label": "Research",
+      "value": "Ma Lab (Seattle Children’s)"
+    },
+    {
+      "label": "Now",
+      "value": "Labs, classes, ResuMAX — fresh off AWS Hackathon (2nd)"
+    }
+  ],
+  "profileMetrics": [
+    {
+      "label": "Primary Stack",
+      "value": "Python · PyTorch · React · Node · AWS"
+    },
+    {
+      "label": "Strength",
+      "value": "Research code + shipping side projects"
+    },
+    {
+      "label": "Style",
+      "value": "Careful in the lab, simpler in the UI"
+    },
+    {
+      "label": "Competitive Edge",
+      "value": "Tennis background, long debugging sessions"
+    }
+  ],
+  "skills": [
+    "Python/PyTorch",
+    "Leadership",
+    "Java",
+    "React",
+    "AWS",
+    "C / C++",
+    "SQL",
+    "MATLAB"
+  ],
+  "pageNav": [
+    {
+      "id": "service-box",
+      "label": "Projects"
+    },
+    {
+      "id": "bio-spotlight",
+      "label": "Bio"
+    },
+    {
+      "id": "match-archive",
+      "label": "Experience"
+    },
+    {
+      "id": "skills-block",
+      "label": "Skills"
+    },
+    {
+      "id": "press-box",
+      "label": "Contact"
+    }
+  ],
+  "projectHighlights": [
+    {
+      "title": "Helm",
+      "summary": "Multi-agent coordination for AI coding workflows—less wasted compute and fewer merge conflicts when several agents run at once. FastAPI backend, React/TypeScript front end, Amazon Bedrock (Claude) for merge arbitration, fleet deduplication, and guardrails.",
+      "event": "AWS Hackathon 2026",
+      "city": "Seattle",
+      "round": "2nd place",
+      "matchup": "Concurrent coding agents without duplicate work or messy merges",
+      "surface": "Python · FastAPI · React · TypeScript · Amazon Bedrock · AWS",
+      "game": "Multi-agent orchestration and Bedrock integration",
+      "result": "2nd place — AWS Hackathon 2026",
+      "score": "2nd"
+    },
+    {
+      "title": "ResuMAX",
+      "summary": "AI career assistant with Cognito auth, API Gateway + Lambda backend, DynamoDB and S3, and a Gemini-tuned model for chat. React/Tailwind front end; built to handle real sessions, not just a demo.",
+      "event": "Solo project",
+      "city": "Seattle",
+      "round": "Flagship",
+      "matchup": "Production AI with auth, storage, and inference cost in mind",
+      "surface": "Python · Gemini · React · Tailwind · Node · AWS",
+      "game": "Architecture, model wiring, and UI people trust",
+      "result": "Live — real users on AWS",
+      "score": "Live"
+    },
+    {
+      "title": "Skribbl.IO (Java Sockets)",
+      "summary": "Multiplayer drawing game over Java sockets with encrypted messages and multi-client sync. Team project for a networking class—lots of threading and protocol edge cases.",
+      "event": "Team project",
+      "city": "Renton",
+      "round": "Class build",
+      "matchup": "Keeping draws in sync when everyone sends at once",
+      "surface": "Java · Sockets · Git",
+      "game": "Protocol design and concurrency",
+      "result": "Working multiplayer demo",
+      "score": "Shipped"
+    },
+    {
+      "title": "npweb — this portfolio",
+      "summary": "This site—React and Vite, tennis motif, scroll-snap project reel, and a timeline for overlapping roles. Content lives in JSON so updates stay quick.",
+      "event": "Solo",
+      "city": "Seattle",
+      "round": "Ongoing",
+      "matchup": "A portfolio I can update without rewriting components",
+      "surface": "Vite · React · CSS",
+      "game": "Layout, motion, and a simple content layer",
+      "result": "You’re on it now",
+      "score": "Active",
+      "codeUrl": "https://github.com/SameerS2007"
+    }
+  ],
+  "education": {
+    "degree": "B.S. Computer Science",
+    "school": "University of Washington · Seattle, WA",
+    "schoolSubtitle": "Paul G. Allen School of Computer Science & Engineering",
+    "window": "Expected June 2027",
+    "detail": "Liberty High School (Renton, WA): Summa Cum Laude, 3.98 GPA · Aug 2021 – June 2025."
+  },
+  "experiencePeriods": [
+    {
+      "id": "may-2026-aws-hackathon",
+      "window": "May 2026",
+      "sortKey": 202605,
+      "items": [
+        {
+          "role": "Hackathon — 2nd place",
+          "org": "AWS Hackathon 2026",
+          "location": "Seattle, WA",
+          "kind": "Hackathon",
+          "status": "past",
+          "summary": "Built Helm with a team over the weekend: a multi-agent coordination engine for AI coding workflows, using Amazon Bedrock (Claude Haiku/Sonnet) for merge arbitration, fleet deduplication, and guardrails across concurrent agent sessions.",
+          "boxScore": [
+            {
+              "label": "When",
+              "value": "May 2026"
+            },
+            {
+              "label": "Place",
+              "value": "2nd"
+            },
+            {
+              "label": "Stack",
+              "value": "FastAPI · React · TypeScript · Bedrock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026-present-research",
+      "window": "2026 — present",
+      "sortKey": 202606,
+      "items": [
+        {
+          "role": "Undergraduate Researcher",
+          "org": "Ma Lab / Seattle Children’s Research Institute",
+          "location": "University of Washington · Seattle, WA",
+          "kind": "Research",
+          "status": "current",
+          "summary": "Computational models and simulations of biological systems for system-level behavior; optimization and numerical methods to analyze and parameterize biological processes; translating wet-lab problems into computational frameworks with the team.",
+          "boxScore": [
+            {
+              "label": "Focus",
+              "value": "Simulation · optimization · modeling"
+            },
+            {
+              "label": "Since",
+              "value": "March 2026"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jan-may-2026-bci",
+      "window": "Jan — May 2026",
+      "sortKey": 202604,
+      "items": [
+        {
+          "role": "Undergraduate Researcher — BCI Project",
+          "org": "University of Washington",
+          "location": "Seattle, WA",
+          "kind": "Research",
+          "status": "past",
+          "summary": "EEG acquisition and signal processing for SSVEP-based neural frequency detection in real time; custom EEG headsets and visual stimulus rigs; experimental protocols and tooling for SNR, latency, and decoding reliability.",
+          "boxScore": [
+            {
+              "label": "Stack",
+              "value": "Signal processing · EEG · analysis pipelines"
+            },
+            {
+              "label": "Span",
+              "value": "Jan 2026 – May 2026"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fall-2025-i2",
+      "window": "Fall 2025",
+      "sortKey": 202512,
+      "items": [
+        {
+          "role": "UW I2 — Introductory Machine Learning",
+          "org": "UW I2 Club",
+          "location": "Seattle, WA",
+          "kind": "Activity",
+          "status": "past",
+          "summary": "Deep learning across CNNs, RNNs, and RL agents in PyTorch; end-to-end ML pipelines with Hugging Face + PyTorch on real datasets.",
+          "boxScore": [
+            {
+              "label": "Span",
+              "value": "Sep 2025 – Dec 2025"
+            },
+            {
+              "label": "Core",
+              "value": "PyTorch · Hugging Face · pipelines"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2024-2025-prog-club",
+      "window": "2024 — 2025",
+      "sortKey": 202506,
+      "items": [
+        {
+          "role": "Programming Club Lead",
+          "org": "Liberty High School",
+          "location": "Renton, WA",
+          "kind": "Leadership",
+          "status": "past",
+          "summary": "Led weekly algorithm and debugging workshops for 15–30 students—Java fundamentals, DSA, and problem-solving culture.",
+          "boxScore": [
+            {
+              "label": "Span",
+              "value": "Sep 2024 – June 2025"
+            },
+            {
+              "label": "Impact",
+              "value": "Peer teaching · workshop design"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tourStops": [
+    "📍 UW Seattle",
+    "🔬 Seattle Children’s Research Institute",
+    "🏠 Renton (home)",
+    "🎾 Local courts when class allows"
+  ],
+  "links": {
+    "resume": "/Sameer-Resume.pdf",
+    "github": "https://github.com/SameerS2007",
+    "linkedin": "https://www.linkedin.com/in/sameer-sahai-71139b360",
+    "email": "mailto:sameer.sahai2007@gmail.com"
+  },
+  "hero": {
+    "lede": "I’m at the Allen School in Ma Lab at Seattle Children’s (simulations and biological modeling). I wrapped a UW BCI project in May 2026; I also ship side projects—recently Helm (2nd at AWS Hackathon 2026) and ResuMAX in production on AWS.",
+    "designNotes": "I do best on small teams that ship and explain tradeoffs plainly. Reach out if you’re working on health tech, ML systems, or developer tools—I’m looking for a summer internship and like talking through real problems."
+  },
+  "bioSection": {
+    "title": "Off the resume",
+    "paragraphs": [
+      "I grew up playing competitive tennis in Renton. The part that stuck for school and work is moving on after a bad point instead of carrying it into the next one.",
+      "These days I split time between Ma Lab work and user-facing builds (React, AWS). Still early in my career, but I like going deep on one problem at a time."
+    ],
+    "chips": [
+      "✦ Ma Lab research",
+      "🎾 Tennis background",
+      "⌘ ML + full-stack"
+    ]
+  },
+  "currentForm": {
+    "intro": "Ma Lab research, Allen School classes, Helm post-hackathon, ResuMAX upkeep, and updates to this site.",
+    "lines": [
+      {
+        "label": "Research",
+        "value": "Biological modeling · simulation"
+      },
+      {
+        "label": "Ship",
+        "value": "Helm polish · ResuMAX features"
+      },
+      {
+        "label": "Next",
+        "value": "Summer 2026 internship"
+      }
+    ]
+  },
+  "drillsSection": {
+    "intro": "Skills I’m deliberately practicing this year.",
+    "lines": [
+      {
+        "label": "01",
+        "value": "ML evaluation and deployment habits"
+      },
+      {
+        "label": "02",
+        "value": "EEG / signal processing for BCI"
+      },
+      {
+        "label": "03",
+        "value": "Writing up research the way I’d want to read it"
+      }
+    ]
+  },
+  "tourSection": {
+    "intro": "Seattle for school and lab work; Renton is still home base."
+  },
+  "experienceFootnote": ""
+}

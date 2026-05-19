@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Vite
+.vite/
+
+# Environment (never commit secrets)
+.env
+.env.*
+!.env.example
+
+# Resume — keep local / deploy separately; site links to /Sameer-Resume.pdf
+public/Sameer-Resume.pdf
+Sameer*Resume.pdf
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
+
+# Optional local editor settings
+.vscode/
+!.vscode/extensions.json
